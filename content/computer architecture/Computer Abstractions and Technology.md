@@ -1,5 +1,4 @@
 
----
 
 사실 제 전공과 Computer Architecture는 밀접한 관련은 없습니다.
 
@@ -21,13 +20,7 @@
 
 그럼 들어가 보겠습니다.
 
----
-
 ### **Computer**
-
----
-
-
 
 > "A computer is a machine that can be instructed to carry out sequences of arithmetic or logical operations automatically via computer programming."
 
@@ -108,11 +101,7 @@ chanfifo77.tistory.com
 
 ](https://chanfifo77.tistory.com/100)
 
----
-
 ### **Below Your Program**
-
----
 
 ![](https://blog.kakaocdn.net/dn/BS0rp/btsNA8wgD5x/Vpx2OxPZGEti08OOmgYzIK/img.png)
 
@@ -140,11 +129,7 @@ A simplifi ed view of hardware and software as hierarchical layers, shown as con
 
   
 
----
-
 ### **Under the Covers**
-
----
 
   
 
@@ -166,11 +151,8 @@ The organization of a computer, showing the five classic components.
 
 메모리는 명령어와 데이터를 둘 다 저장하는 저장소입니다.
 
----
-
 ### **Performance**
 
----
 
 > When we say one computer has better performance than another, what do we mean?  
 > If you were running a program on two different desktop computers, you’d say that the faster one is the desktop computer that gets the job done first.  
@@ -206,13 +188,10 @@ Throughput은 주어진 시간 동안 수행된 작업량을 의미합니다. �
 
 ![](https://blog.kakaocdn.net/dn/nnoWI/btsNBAZ9nMs/GYeULpO90ggB8KlNEbWk2k/img.png)
 
-  
 
----
 
 ### **The Power Wall**
 
----
 
 > Historically, manufacturers improved the performance of computers primarily by increasing the clock rate.  
 > This technique eventually hit a limit due to problems with power consumption and heat generation.
@@ -237,13 +216,8 @@ Clock rate and Power for Intel x86 microprocessors over eight generations and 25
 
   
 
-  
-
----
-
 ### **The Switch from Uniprocessors to Multiprocessors**
 
----
 
 > Because of the power wall, it was no longer possible to increase the clock rate significantly while maintaining manageable power consumption.  
 > As a result, computer designers turned to multiprocessors—computers with more than one processor—to improve performance.
