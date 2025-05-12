@@ -1,0 +1,84 @@
+{
+  "id": "12d3397f-8366-4fb3-a507-a0675f6413d3",
+  "title": "수정할 부분 있으면 해줘.",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "수정할 부분 있으면 해줘.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n수정할 부분 있으면 해줘.\n\n"
+        }
+      ],
+      "id": "f1b85395-8022-42d1-91c2-42a2c572d81b",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "content/1. Projects/Graph_Algorithms/7. NP_Complete_Summary_9_7.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "해당 파일에는 주제와 관련된 정보가 잘 구성되어 있습니다. 다만, 다음과 같은 부분들에 약간의 명확성을 추가하거나 수정할 수 있습니다:\n\n1. P vs NP 부분의 제목을 보다 명확하게 구분짓기 위해, \"9.7.1\"과 \"9.7.2\" 부분을 각각의 소제목으로 나누면 좀 더 구체적인 정보 제공이 가능합니다.\n2. 그래프 색칠 문제와 집합 커버 문제에 대한 설명에 좀 더 구체적인 예시나 이해를 돕기 위한 설명을 추가할 수 있습니다.\n\n다음은 위의 제안을 바탕으로 한 예시 수정입니다.\n\n<smtcmp_block filename=\"content/1. Projects/Graph_Algorithms/7. NP_Complete_Summary_9_7.md\" language=\"markdown\">\n## 2. P vs NP\n\n### 9.7.1 P 클래스\n<!-- 클래스를 소제목으로 나누어 명시함 -->\n**P 클래스**:\n<!-- ... 내용 동일 ... -->\n\n### 9.7.2 NP 클래스\n<!-- 클래스를 소제목으로 나누어 명시함 -->\n**NP 클래스**:\n<!-- ... 내용 동일 ... -->\n\n### ▶ 그래프 색칠(Graph Coloring)\n- 인접한 정점은 서로 다른 색으로 칠해야 한다는 제약\n- 예: 지도 색칠하기 문제에서 인접 국가들이 다른 색으로 구분되어야 함\n\n### ▶ 집합 커버(Set Cover)\n- 전체 집합을 덮을 수 있는 최소 개수의 부분집합을 선택\n- 예: 최소 수의 CCTV로 모든 구역을 감시하기 위한 설치 위치 결정\n</smtcmp_block>\n\n이런 방식으로 작은 제목을 추가하고, 예시에 실생활 비유를 추가함으로써 가독성과 이해도를 높였습니다.",
+      "id": "a9b873f4-26dd-4e6c-bd0b-dc4d4534973c",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4o",
+          "model": "gpt-4o"
+        },
+        "usage": {
+          "prompt_tokens": 1810,
+          "completion_tokens": 394,
+          "total_tokens": 2204,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    }
+  ],
+  "createdAt": 1747055554835,
+  "updatedAt": 1747055565356,
+  "schemaVersion": 1
+}
