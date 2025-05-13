@@ -1,0 +1,289 @@
+{
+  "id": "3dda85d4-9f46-4c30-8293-6bfa040be1e4",
+  "title": "지금 왼쪽에있는 창 어떻게 오름차순으로 바꿔?",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "지금 왼쪽에있는 창 어떻게 오름차순으로 바꿔?",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n지금 왼쪽에있는 창 어떻게 오름차순으로 바꿔?\n\n"
+        }
+      ],
+      "id": "2b777b55-2c98-4b19-89e7-e3fd78528e1f",
+      "mentionables": []
+    },
+    {
+      "role": "assistant",
+      "content": "왼쪽 창이 Obsidian의 파일 탐색기(Sidebar)라면, 기본적으로 오름차순(알파벳 순)으로 정렬되어 있습니다.\n\n만약 오름차순이 아닌 정렬일 경우:\n\n- 파일 탐색기 상단의 점 3개(더보기) 메뉴를 클릭\n- 'Sort by name' 혹은 '이름순 정렬' 옵션을 선택하여 오름차순으로 맞출 수 있습니다.\n\n별도의 플러그인 없이는 파일 탐색기의 정렬 순서를 수동으로 오름차순/내림차순 전환하는 옵션은 제한적입니다.\n\n원하는 정렬이 더 구체적이라면 알려주세요.",
+      "id": "0248c458-fa67-4460-be68-3e3a1a079e3c",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4.1-mini",
+          "model": "gpt-4.1-mini"
+        },
+        "usage": {
+          "prompt_tokens": 661,
+          "completion_tokens": 154,
+          "total_tokens": 815,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "아 파일 제목 뭐로 바꿔?",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n아 파일 제목 뭐로 바꿔?\n\n"
+        }
+      ],
+      "id": "a411c65a-ffa8-40c3-8693-121ad550ffd8",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "content/1. Projects/Graph_Algorithms/7. NP-Complete Problems.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "파일 제목을 변경하려면, 현재 보고 계신 파일 이름 \"7. NP.md\"를 원하는 이름으로 바꾸면 됩니다.\n\n예를 들어, 파일 내용을 고려해 좀 더 직관적인 이름으로 바꾸고 싶다면:\n\n- \"7. NP-Completeness.md\"\n- \"7. NP-완전성.md\"\n- \"7. NP-Complete Problems.md\"\n\n같은 이름들이 좋을 것 같습니다.\n\n파일 제목은 Obsidian 파일 탐색기에서 해당 파일을 우클릭 후 \"이름 바꾸기\"로 쉽게 변경할 수 있습니다.",
+      "id": "ccfe46e3-5531-4452-a07d-ffecd9950796",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4.1-mini",
+          "model": "gpt-4.1-mini"
+        },
+        "usage": {
+          "prompt_tokens": 1994,
+          "completion_tokens": 123,
+          "total_tokens": 2117,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "이 파일 제목도 바꿔줘",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n이 파일 제목도 바꿔줘\n\n"
+        }
+      ],
+      "id": "830b87ea-c09a-4626-9d05-737caf993c42",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "content/1. Projects/Graph_Algorithms/4. 플로이드-워셜 알고리즘.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "어떤 파일 제목을 바꾸고 싶으신지 구체적으로 알려주세요. 지금 보여주신 파일은 \"4. 플로이드-워셜 알고리즘.md\"입니다. 이 파일명을 변경할까요? 새로운 제목을 알려주시면 반영해 드리겠습니다.",
+      "id": "a72f538e-6a3c-4399-b1c0-4229df0b0de1",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4.1-mini",
+          "model": "gpt-4.1-mini"
+        },
+        "usage": {
+          "prompt_tokens": 2948,
+          "completion_tokens": 62,
+          "total_tokens": 3010,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "영어로 바꾸자",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n영어로 바꾸자\n\n"
+        }
+      ],
+      "id": "81f75694-ce4e-4111-9a85-fe1eb92beeae",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "content/1. Projects/Graph_Algorithms/4. 플로이드-워셜 알고리즘.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "<smtcmp_block filename=\"content/1. Projects/Graph_Algorithms/4. 플로이드-워셜 알고리즘.md\" language=\"markdown\">\n<!-- ... existing content ... -->\n# Floyd-Warshall Algorithm\n\nFloyd-Warshall algorithm finds the shortest paths between all pairs of vertices in a graph.\n\n## 1. Problem Definition\n\n*   **Goal**: Calculate the shortest distance between all vertex pairs \\((i, j)\\) in the graph.\n*   **Input**:\n    *   Vertex set \\(V = \\{1, 2, \\dots, n\\}\\).\n    *   Edge weights \\(w(u, v)\\): cost or distance for each edge \\((u, v)\\). Negative weights are allowed but there must be no **negative cycles**.\n*   **Output**:\n    *   2D array `dist[i][j]`: shortest distance from vertex \\(i\\) to \\(j\\). If",
+      "id": "8dcbfabe-fbcd-471f-a78c-461ec2fdcfac",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4.1-mini",
+          "model": "gpt-4.1-mini"
+        }
+      }
+    }
+  ],
+  "createdAt": 1747136714579,
+  "updatedAt": 1747138396256,
+  "schemaVersion": 1
+}

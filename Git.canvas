@@ -1,7 +1,7 @@
 {
 	"nodes":[
-		{"id":"f693c786931a479a","x":-400,"y":-340,"width":400,"height":400,"type":"file","file":"content/1. Projects/Git_Quick_Start/Git Git!.md"},
-		{"id":"861147c719a91e90","x":-400,"y":200,"width":400,"height":400,"type":"file","file":"content/1. Projects/Git_Quick_Start/Git 명령어 간단 리뷰.md"}
+		{"id":"f693c786931a479a","x":-400,"y":-340,"width":400,"height":400,"type":"file","file":"content/2. Area/Git_Quick_Start/Git Git!.md"},
+		{"id":"861147c719a91e90","x":-400,"y":200,"width":400,"height":400,"type":"file","file":"content/2. Area/Git_Quick_Start/Git 명령어 간단 리뷰.md"}
 	],
 	"edges":[
 		{"id":"dcaaa8836478367f","fromNode":"f693c786931a479a","fromSide":"bottom","toNode":"861147c719a91e90","toSide":"top"}
