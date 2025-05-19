@@ -1,6 +1,8 @@
 
 ## Flowchart
 
+<div style="text-align: center;">
+
 ```mermaid
 graph TD
   1("SETUP 
@@ -16,6 +18,4 @@ graph TD
   [검증]") --> 9("GDSII")
 ```
 
-
-
-
+</div>

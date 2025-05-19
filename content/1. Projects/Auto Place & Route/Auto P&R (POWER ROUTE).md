@@ -1,9 +1,16 @@
 ## Power Route
+>[!definition]
+>Power Routing은 [[Auto P&R (POWER PLAN)|Power Planning]] 초기 단계에서 생성된 Global Power에 Local Power 경로를 연결하는 프로세스.
 ### 목적
 Power Plan 단계에서는 전체적인 전원 구조(Ring, Stripe)를 구성했지만, Standard Cell 내부까지 실제로 전원이 연결된 상태는 아니다.
 
 → ==그래서 Power Route 단계에서는 각 셀에 실제로 VDD/VSS 전원이 닿도록 배선 경로를 연결해줘야 한다.==
 이걸 _**Special Routing**_ 이라고 부른다.
+
+### Special Route Target
+- Standard Cells
+- Blocks
+- I/O Pads
 
 ### Power Route 원리
 Standard Cell Row에는 이미 VDD, VSS 레일이 존재하지만, 이 레일이 Power Stripe 또는 Power Ring과 직접 연결되어 있지는 않다.
@@ -21,4 +28,13 @@ Standard Cell Row에는 이미 VDD, VSS 레일이 존재하지만, 이 레일이
 | ==IR Drop 분석 가능==   | 실제 연결이 있어야 다음 단계에서 IR Drop 시뮬레이션 가능          |
 | ==전원 integrity 확보== | VDD/GND 신호가 weak하게 연결되어 있으면 logic failure 위험 |
 
+### 동작
+**Power Ring**
+- 블록 내 안정적인 전력 공급 제공
+**Power Stripe**
+- 블록과 상위 수준의 전력 구조를 연결
+
+==Power Ring, Power Stripe를 사용하여 각 블록 및 셀을 전력 구조에 연결==
+
+---
 다음 [[Auto P&R (PLACEMENT)|Placement]]

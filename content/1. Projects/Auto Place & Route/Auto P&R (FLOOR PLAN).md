@@ -17,14 +17,18 @@
 **주요 작업 내용** :
 	==Core/Die Size 결정==
 		 전체 칩 영역(Die)과 내부 설계 영역(Core) 비율 설정
+		 칩의 물리적 영역을 결정
 		 _처음  P&R은 30%의 여유 설정을 주고, 면적 최적화를 진행할 때 Die Size를 조정하여 설정_ 
+	==Soft Block(Logic Block or IP 코어) 할당==
+		 각 Soft Block의 위치와 크기를 결정
 	==I/O Pad 배치==
 		 Pad(input/output pin) 위치 배치 (칩 주변부)
-	==Macro 배치==
+	==Macro(큰 블록 or IP 코어) Placement==
 		메모리, PLL 등 큰 블록의 위치 지정(통상 수동 배치)
 	==Standard Cell 영역 정의==
 		소형 로직 셀이 자동 배치될 영역 (Row로 구성)
 	==Power Planning 준비==
+		전원 및 그라운드 네트워크를 설계하여 전력 공급을 보장하고, 전력 소모를 효율적으로 관리
 		VDD/VSS를 위한 Power Ring, Stripe 배치 고려
 		_코어를 중앙에 두고, 바운드리에 Power/Ground를 위한 여유 공간을 둬야 한다._
 
