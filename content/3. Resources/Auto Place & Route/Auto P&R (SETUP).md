@@ -2,7 +2,7 @@
 ### P&R을 위한 파일
 - 설계자 제공 파일
   1. netlist 파일 : 합성 결과물
-  2. sdc 파일 : 디자인 제약 조건(CLK, In/out, fan etc)
+  2. [[SDC(Synopsys Design Constraints)|sdc]] 파일 : 디자인 제약 조건(CLK, In/out, fan etc)
 - 공정사 제공 파일
   1. 디지털 라이브러리,[[LEF(Library Exchange Format)|lef 파일]]
 

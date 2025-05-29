@@ -14,14 +14,14 @@
 ##### File format
 **Input**
 - Netlist : Design Netlist - Verilog File _소스파일_
-- SDC : Constraint File _in/out put delay, Clock 정보_
-- LEF : Physical Libraries _width, length 등의 정보 포함_
-- LIB : Timing Libraries _gate가 어떻게 동작하는 지, 테스트 환경 예) 남극, 사막의 기후_
+- [[SDC(Synopsys Design Constraints)|SDC]] : Constraint File _in/out put delay, Clock 정보_
+- [[LEF(Library Exchange Format)|.lef]] : Physical Libraries _width, length 등의 정보 포함_
+- [[Liberty|.lib]] : Timing Libraries _gate가 어떻게 동작하는 지, 테스트 환경 예) 남극, 사막의 기후_
 
 **Output**
 - GDS : Physical Layout
 - Netlist : CTS를 거치면서 input netlist를 비교해 달라짐
-- SDF : Standard Delay Format
+- [[SDF]] : Standard Delay Format
 
 ##### Place and Route flowchart
 ```mermaid

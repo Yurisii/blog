@@ -5,7 +5,7 @@ Cadence가 제안한 power intent 기술 포맷으로, 저전력 디지털 회�
 - 기본 Syntax는 Tcl에 가깝지만 자체 구조화된 형식
 - RTL과 별개로 존재하며, logic과 power intent를 분리해 설계 유연성을 확보합니다.
 
-power-aware 구현 및 시뮬레이션, synthesis, STA에서 전력 조건을 정확히 반영하도록 보조합니다.
+power-aware 구현 및 시뮬레이션, synthesis, [[STA(Static Timing Analysis)]]에서 전력 조건을 정확히 반영하도록 보조합니다.
 
 # UPF(Unified Power Format)
 Accellera에서 제안한 포맷으로 **EDA 툴 간 호환성을 위한 공식적인 power intent 기술 포맷**이다.

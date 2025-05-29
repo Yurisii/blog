@@ -1,6 +1,6 @@
 ## Post-Layout Simulation을 위한 파일
 1. netlist 파일
-2. sdf(StandardCell Delay Format) 파일
+2. [[SDF|sdf(Standard Delay Format)]] 파일
 
 **P&R 전/후 netlist** 파일 변경점
 1. 이전 : CTS 고려 없음
@@ -8,10 +8,10 @@
 
 **P&R 전/후 sdf** 파일 변경점
 1. 이전 : 셀에 대한 딜레이만 존재
-2. 이후 : Placement와 Routing이 진행되었으므로 넷 딜레이 정보가 포함
+2. 이후 : [[Auto P&R (PLACEMENT)|Placement]]와 Routing이 진행되었으므로 넷 딜레이 정보가 포함
 
 >[!note]
-Time Violation 및 DRC에 문제가 없을 경우, 최종적으로 GDSII를 저장하며, 설계자에게 Post-Layout Simulation을 위한 파일을 생성하여 전달하고, 시뮬레이션에 이상이 없다면 해당 GDSII 파일을 최종으로 넘김
+Time Violation 및 [[DRC]]에 문제가 없을 경우, 최종적으로 GDSII를 저장하며, 설계자에게 Post-Layout Simulation을 위한 파일을 생성하여 전달하고, 시뮬레이션에 이상이 없다면 해당 GDSII 파일을 최종으로 넘김
 
 ## GDSII
 >[!definition]
@@ -24,7 +24,7 @@ Time Violation 및 DRC에 문제가 없을 경우, 최종적으로 GDSII를 저�
 
 ### GDSII 생성 단계
 1. **검증 완료**: 
-   - ==모든 검증(DRC, LVS, Timing 분석)==을 통과해야 함
+   - ==모든 검증(DRC, [[LVS]], Timing 분석)==을 통과해야 함
 1. **사전 시뮬레이션 검증**: 
    - 생성된 GDSII 파일을 포토마스크 시뮬레이터 혹은 Signoff DRC 툴로 미리 검증
    - 제조 결함 사전 예측 가능

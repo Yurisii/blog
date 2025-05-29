@@ -1,5 +1,5 @@
 ## POWER PLAN
-setup에서는 각각의 환경에서 칩이 어떻게 동작하는지(.sdf, .lef, .lib, .netlist)
+setup에서는 각각의 환경에서 칩이 어떻게 동작하는지([[SDF|.sdf]], .lef, [[Liberty|.lib]], .netlist)
 floor plan에서는 chip의 동작에 따라 구성할 건지 크기 결정
 
 ### Global Nets
@@ -37,8 +37,8 @@ _[[IR Drop]], [[EM(Electro Migration)]] 등의 [[PI(Power Integrity)|신호 무�
    Add Ring - Core 중심으로 외곽에 큰 전원 틀 만들기
 2. **Power Stripe 생성**:
    Add Stripe - Core에 Power/Ground가 잘 들어갈 수 있도록 내부 수직/수평 라인 형성(격자 구조)
-3. **[[Tap Cell#Tap Cell|Tap Cell]] 삽입**:
-   [[Latch-up]] 방지, [[Tap Cell#Well Tie|Well Tie]]용 셀 삽입
+3. **[[Tap Cell, Well Tie#Tap Cell|Tap Cell]] 삽입**:
+   [[Latch-up]] 방지, [[Tap Cell, Well Tie#Well Tie|Well Tie]]용 셀 삽입
 
 - 모든 인스턴스에 충분한 전력 및 접지를 공급하는 프로세스(필요한 metal layer 포함)
 - Cell 마다, Block 마다 동일한 전력을 공급하기 위한 배치를 구성

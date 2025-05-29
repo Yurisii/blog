@@ -1,3 +1,5 @@
+>[!definition] Output Loading Capacitance
+>[[Liberty]] 파일에서 셀의 출력 핀에 연결된 출력 캐패시턴스를 의미한다.
 
 셀에 Output에 연결된 전체 Capacitance를 의미한다.
 1. 외부에 연결된 **Cell Cap**
