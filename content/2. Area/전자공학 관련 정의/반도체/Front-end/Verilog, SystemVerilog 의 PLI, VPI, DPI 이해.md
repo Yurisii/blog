@@ -1,6 +1,6 @@
 #VPI #PLI #DPI #Verlog #SystemVerilog
 ## 서론 : 하드웨어 설계 언어와 외부 언어의 연결고리
-Verilog 및 SystemVerilog로 설계/검증을 하다 보면 **PLI, VPI, DPI**라는 용어를 접하게 됩니다. 이는 Verilog/SystemVerilog 시뮬레이터와 C/C++ 같은 **외부 언어를 연결하는 인터페이스**를 가리킵니다. 신입 엔지니어가 이해하기엔 다소 생소할 수 있지만, 개념을 알기 쉽게 풀어보겠습니다.
+[[Verilog]] 및 [[SystemVerilog]]로 설계/검증을 하다 보면 **PLI, VPI, DPI**라는 용어를 접하게 됩니다. 이는 Verilog/SystemVerilog 시뮬레이터와 C/C++ 같은 **외부 언어를 연결하는 인터페이스**를 가리킵니다. 신입 엔지니어가 이해하기엔 다소 생소할 수 있지만, 개념을 알기 쉽게 풀어보겠습니다.
 
 # PLI(Programming Language Interface) - Verilog의 프로그래밍 언어 인터페이스
 

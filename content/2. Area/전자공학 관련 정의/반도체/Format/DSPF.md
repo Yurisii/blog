@@ -8,7 +8,7 @@
         
 - **용도**:
     
-    - full-chip **post-layout 시뮬레이션**, **sign-off STA**, **IR-drop 분석** 등.
+    - full-chip **post-layout 시뮬레이션**, **[[Sign-off|sign-off]] STA**, **IR-drop 분석** 등.
         
 - **파일 크기**: 큼 (DSPF는 매우 세분화된 정보를 담기 때문에)
 
@@ -18,9 +18,9 @@
 ## Usage
 1. **[[Auto Place and Route 개요|P&R]] 이후**
    설계가 배치 및 배선 작업을 마친 후에 **DSPF** 파일은 생성됩니다. **DSPF는 SPF보다 더 상세하게 기생 요소(각 네트워크의 세그먼트 단위까지 포함)를 담고 있습니다.**
-2. **STA**
+2. **[[STA(Static Timing Analysis)|STA]]**
    **고객이 필요로 하는 수준의 정밀한 타이밍 분석을 위해 DSPF 파일이 사용됩니다.** DSPF는 각 세그먼트에서의 기생 성분 정보까지 포함하여 설계의 각 경로에 대한 매우 정밀한 타이밍 계산을 가능하게 합니다.
-3. **Back-annotation**
+3. **[[Back-annotation]]**
    **DSPF는 보다 정밀한 게이트 레벨 시뮬레이션에서, 실제 배선의 복잡한 기생 효과를 반영**하는 데 사용됩니다. 이는 설계가 의도한 대로 동작하도록 더욱 확실하게 검증할 수 있게 해줍니다.
 
 

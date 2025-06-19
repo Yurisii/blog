@@ -1,4 +1,4 @@
-Perl로 제작된 [[XML|xml]]로 변환하는 코드를 Python으로 변환하는 과정 중 공부한 문법에 대한 정리
+Perl로 제작된 [[XML|xml]]로 변환하는 코드를 Python으로 변환하는 **과정** 중 공부한 문법에 대한 정리
 # Perl
 ### Type
 
@@ -188,4 +188,52 @@ Python에서 문자열 앞에 붙는 `f`나 `r` 등의 접두사는 문자열
 
 - next -> continue 
 - last -> break
-- 
+- close ->
+
+### argument
+#### Function argument
+아래와 같이 받은 인자를 로컬 변수에 할당하는 형태는
+```perl
+sub string {
+    my $beg = $_[0];
+    my $end = $_[1];
+    ...
+}
+```
+
+아래처럼 파이썬으로 변환이 가능하다.
+```python
+def string(beg, end):
+```
+
+#### 일치하는 함수
+
+```perl
+chomp($start)
+```
+문자열의 끝에 있는 줄 바꿈 문자를 제거한다.
+
+``` python
+start = start.strip()
+```
+문자열의 양 끝에서 공백 문자(기본적으로 포함된 공백, 줄 바꿈 문자 등)를 제거합니다. `lstrip()`과 `rstrip()`을 사용하면 각각 왼쪽과 오른쪽만 제거할 수도 있다.
+
+
+
+
+| Perl                     | Python                                       |
+| ------------------------ | -------------------------------------------- |
+| `my $x = "";`            | `x = ""`                                     |
+| `while (1)`              | `while True:`                                |
+| `get_line();`            | `get_line()`                                 |
+| `if (!defined($xxx))`    | `if xxx is None:`                            |
+| `=~ /\s*XYZ\s*:\s*(.+)/` | `re.search(r"\s*XYZ\s*:\s*(.+))", line_buf)` |
+| `chomp($x)`              | `x = x.strip()`                              |
+| `last;`                  | `break`                                      |
+| `return $x;`             | 동일 (`return x`)                              |
+- Perl의 `my $x = "";`는 Python에서 `x = ""`로 작성됩니다.
+- 무한 루프는 Perl에서 `while (1)`로, Python에서는 `while True:`로 표현합니다.
+- Perl의 함수 호출 `get_line();`은 Python에서는 `get_line()`으로 동일하게 사용됩니다.
+- Perl에서 정의되지 않은 값을 체크하기 위해 `if (!defined($line_buf))`를 사용하며, 이는 Python에서 `if line_buf is None:`으로 대응됩니다.
+- 정규 표현식 사용에서는 Perl의 `=~ /\s*XYZ\s*:\s*(.+)/`가 Python에서는 `re.search(r"\s*XYZ\s*:\s*(.+))", line_buf)`로 대체됩니다.
+- 마지막으로, Perl의 루프 종료인 `last;`는 Python에서는 `break`로 변환되며, 리턴 값은 Perl과 Python 모두에서 `return $x;`와 `return x`로 동일하게 표현됩니다.

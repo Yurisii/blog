@@ -35,4 +35,4 @@ SDF는 cell과 interconnect의 propagation delay, interconnection delay, constra
 
 #### 활용 의의
 
-SDF는 layout-dependent timing behavior를 functional simulation이나 STA에 정확히 반영함으로써, **signoff-level의 타이밍 검증을 가능하게 하는 핵심 전달 매커니즘**이다. 특히 multi-corner, multi-mode (MCMM) 환경에서는 각 조건에 맞는 SDF를 생성해 분석 정확도를 극대화한다.
+SDF는 layout-dependent timing behavior를 functional simulation이나 STA에 정확히 반영함으로써, **[[Sign-off|signoff]]-level의 타이밍 검증을 가능하게 하는 핵심 전달 매커니즘**이다. 특히 multi-corner, multi-mode (MCMM) 환경에서는 각 조건에 맞는 SDF를 생성해 분석 정확도를 극대화한다.

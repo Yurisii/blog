@@ -1,3 +1,6 @@
+>[!definition] LEF
+>Library Exchange Format(LEF) is a specification for representing the physical circuit is an ASCII format. it includes design rules and abstract information about IO pad cells, bump cells and IO IP cells.
+>
 ### LEF
 - 반도체 설계 라이브러리와 CAD 도구 간의 데이터 교환을 위한 파일 형식으로, **레이아웃 및 기술 정보**를 포함합니다.
 - 배치 및 라우팅에 필요한 레이어, 비아 및 매크로 정의가 포함되어 있습니다.
@@ -6,7 +9,7 @@
   - 대칭 규칭 : 셀을 회전할 때의 규칙(X, Y 또는 90도 간격)
 
 ### 파라미터 및 속성 정보
-- **라이브러리 셀(예: logic gate, latch, flip-flop)의 물리적 특성**을 설명하는 ==Physical Characteristics==. 
+- **라이브러리 셀(예: logic gate, [[Latch|latch]], [[Flip-Flop|flip-flop]])의 물리적 특성**을 설명하는 ==Physical Characteristics==. 
 - 이 정보는 각 ==셀의 크기, 위치, 금속 레이어 지정 및 기타 중요한 물리적 특성==을 정의합니다.
 
 ### 레이아웃 정보
